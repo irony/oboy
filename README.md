@@ -31,6 +31,18 @@ It took too much boilerplate to include and configure my favorite assert libs to
 
     })
 
+### Run your tests
+
+Since Mocha is a dependency you can run the tests with the local cli distributed with your oboy app. Just add this line to your package.json
+  
+    "scripts": {
+      "test": "./node_modules/.bin/mocha tests/*"
+    }
+
+So to run the tests, just run
+
+    npm test
+
 ### What is Oboy?
 Oboy is a chocolate drink in Sweden :)
 
