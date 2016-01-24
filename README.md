@@ -1,3 +1,6 @@
+Get Mocha, Chai, Proxyquire and Sinon-as-promised in one package!
+===========================================
+
 ```
 ________ ___.                 ._.
 \_____  \\_ |__   ____ ___.__.| |
@@ -7,15 +10,13 @@ ________ ___.                 ._.
         \/    \/       \/      \/
 ```
 
-Get Mocha, Chai, Proxyquire and Sinon-as-promised in one package!
-===========================================
 
 ### Why?
 It took too much boilerplate to include and configure my favorite assert libs together for every project. Now you just need one: Oboy. It is highly opinionated to the tools I use but if you have chosen the same, go ahead and use this.
 
 ### To use
 
-    npm install oboy --saveDev
+    npm install --save-dev oboy
 
 ### Write your tests:
 

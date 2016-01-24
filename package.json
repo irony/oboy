@@ -6,8 +6,8 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Christian Landgren",
+  "license": "MIT",
   "dependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
