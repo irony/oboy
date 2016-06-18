@@ -1,5 +1,11 @@
 Get Mocha, Chai, Proxyquire and Sinon-as-promised in one package!
 ===========================================
+Skip the boilerplate, just one line per test is required 
+
+    var oboy = require('oboy')
+    oboy((expect, proxyquire) => {
+      ...
+
 
 ```
 ________ ___.                 ._.
@@ -12,7 +18,7 @@ ________ ___.                 ._.
 
 
 ### Why?
-It took too much boilerplate to include and configure my favorite assert libs together for every project. Now you just need one: Oboy. It is highly opinionated to the tools I use but if you have chosen the same, go ahead and use this.
+It took too much boilerplate to include and configure my favorite assert libs together for every project. Now I just need one: Oboy. If you also use chai, sinon-as-promised, mocha and proxyquire - just install Oboy instead, batteries included.
 
 ### To use
 
@@ -31,6 +37,16 @@ It took too much boilerplate to include and configure my favorite assert libs to
       [... more tests]
 
     })
+
+### Dynamic bindings
+
+    oboy(should, proxyquire) 
+
+works just as well as:
+
+    oboy(proxyquire, should, sinon) 
+
+
 
 ### Run your tests
 
